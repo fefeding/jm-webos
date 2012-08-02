@@ -1,0 +1,204 @@
+﻿body 
+{
+    width:99%;
+    margin:0;
+    overflow:hidden;
+    background-color:#000;
+} 
+
+/*桌面*/
+.jmos_body
+{
+   width:100%;    
+   top:40px;
+   left:0;
+   overflow:hidden;
+   padding:0;
+   position:absolute;  
+}
+
+.jmos_body iframe
+{
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+/*系统状态栏*/
+.jmos_status
+{
+    height:40px;
+    width:100%;
+    position:absolute;
+    vertical-align:middle;
+    top:0;
+   left:0;
+    background:url(images/status.png);
+    z-index:100000000;
+    overflow:hidden;
+padding-top:1px;
+}
+
+/*任务栏项*/
+.jmos_taskitem
+{ 
+    width:60px;
+    height:96%;
+   position:relative;
+   overflow:hidden; 
+   float:left;   
+    text-align:center;   
+    vertical-align:middle;
+    margin-left:2px;
+}
+
+.jmos_taskitem .body
+{
+    width:96%;
+   height:94%;
+   border: solid 1px #bbd6ec;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: inset 0 0 1px #fff;
+     -webkit-box-shadow: inset 0 0 1px #fff;
+    -moz-box-shadow: inset 0 0 1px #fff;
+    background-color: #16ac21;
+    filter:alpha(opacity=20);-moz-opacity:0.2;opacity: 0.2;
+}
+
+.jmos_taskitem:hover
+{
+   /*filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8; */
+   background-color:#16c221; 
+}
+
+.jmos_taskitem:first-child{margin-left:20px;}
+
+.jmos_taskitemfocus .body
+{
+    filter:alpha(opacity=90);-moz-opacity:0.9;opacity: 0.9; 
+}
+
+.jmos_taskitem img
+{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:40px;
+    height:40px;
+    margin-left:-20px;
+    margin-top:-20px;
+ }
+
+/*桌面快捷方式*/
+.jmdesktopitem
+{
+    border: solid 1px transparent;    
+    overflow:hidden;  
+    position:absolute;    
+    text-align:center;
+    z-index:2;
+}
+.jmdesktopitem:hover
+{
+    border: solid 1px #bbd6ec;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;   
+    background-color: #3b3b3c;
+    filter:alpha(opacity=40);-moz-opacity:0.4;opacity: 0.4;
+}
+
+/*选中状态*/
+.jmdesktopitemfocus
+{    
+    border: solid 1px #bbd6ec;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;    
+    background-color: #3b3b3c;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity: 0.8;     
+}
+
+/*快捷方式图标*/ 
+.jmdesktopitem img
+{
+    width:40px;
+    height:40px; 
+    padding-bottom:4px;  
+    display:block;
+    margin:0 auto;
+}
+
+/*快捷方式文字部分*/
+.jmdesktopitem .text
+{
+    color:#fff; 
+    background-color:#3E392E;     
+    font-size:12px;
+    font-weight:bolder;
+    font-style:inherit;
+    line-height:15px;
+   padding:4px 4px;
+    text-align:center;    
+    overflow:hidden;     
+    text-overflow : ellipsis;    
+    display:block;    
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius:4px;
+    -moz-border-radius: 4px; 
+-webkit-border-radius: 4px;
+}
+
+/*快速转换桌面栏背景*/
+.quickDesktopBg
+{
+    border-radius:7px;
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px;   
+    opacity: 0.6;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    height:16px;  
+    padding:2px 18px 2px 10px;  
+    position:absolute;
+    background-color:#000;
+    left:49%;
+    top:90%;    
+    vertical-align:middle;
+    z-index:10;
+}
+/*快速转换桌面栏转换按钮背景*/
+.quickDesktop_a
+{
+    border-radius:4px;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px;
+    background-color:#ccc;
+    text-decoration:none;
+    width:8px;
+    height:8px;
+    float:left;
+    margin:4px 0px 0px 6px;    
+    cursor:pointer;
+}
+
+
+/*快速转换桌面栏当前按钮背景*/
+.quickDesktop_a:hover,.quickDesktop_a_focus
+{
+     background-color:Red; 
+}
+
+.opacity
+{
+    opacity: 0.6;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+
+.radius
+{
+    border-radius:4px;
+    -moz-border-radius: 4px; 
+-webkit-border-radius: 4px;
+}
