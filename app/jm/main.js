@@ -1,10 +1,11 @@
+
 ﻿//
 //http://www.jiamaocode.com
 //****
 [{ title: '开源项目',
     modal: false,   
     position: 'center',   //显示位置,top=顶部,left =左边,center居中 
-    url: "http://www.jiamaocode.com/ProList.shtml",
+    url: "http://www.jm47.com/",
     ico: "~/app/jm/project.png",
     width: 600,
     height:400,
@@ -19,7 +20,7 @@ des:true,
     position: 'center',   //显示位置,top=顶部,left =左边,center居中        
     width: 600,
     height: 480,
-    url: "http://www.jiamaocode.com/CtList.shtml",
+    url: "http://www.jm47.com/",
     ico: "~/app/jm/jswd.png",
     resizeable: true,
     iframe:true,
@@ -31,7 +32,7 @@ des:true,
     position: 'center',   //显示位置,top=顶部,left =左边,center居中        
     width: 600,
     height: 480,
-    url: "http://www.jiamaocode.com/ItNewList-0-0.shtml",
+    url: "http://www.jm47.com/",
     ico: "~/app/jm/it.png",
     resizeable: true,
     iframe: true,
@@ -43,7 +44,7 @@ des:true,
     position: 'center',   //显示位置,top=顶部,left =左边,center居中        
     width: 600,
     height: 480,
-    url: "http://www.jiamaocode.com/BaiKe/Home/",
+    url: "http://www.jm47.com/BaiKe/Home/",
     ico: "~/app/jm/baike.png",
     resizeable: true,
     iframe: true,
@@ -56,7 +57,7 @@ des:true,
     position: 'center',   //显示位置,top=顶部,left =左边,center居中        
     width: 600,
     height: 480,
-    url:"http://www.jiamaocode.com/IpSearch/",
+    url:"http://www.jm47.com/IpSearch/",
     resizeable: true,
     ico: "~/app/jm/ip.png",
     iframe: true,
@@ -69,11 +70,12 @@ des:true,
     position: 'center',   //显示位置,top=顶部,left =左边,center居中        
     width: 600,
     height: 480,
-    url: "http://www.jiamaocode.com/py/",
+    url: "http://www.jm47.com/py/",
     ico: "~/app/jm/py.png",
     resizeable: true,
     iframe: true,
 des:true,
     bgMenu: false//加到桌面右健菜单中
 }
+
 ];
