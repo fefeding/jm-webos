@@ -1,7 +1,7 @@
 jm-webos
 ========
 
-基于js-jm库的一个javascript模仿OS系统
+模仿OS  界面
 
 
 demo[http://os.jm47.com/]
