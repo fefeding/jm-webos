@@ -2,10 +2,10 @@
 ﻿//
 //http://www.jiamaocode.com
 //****
-[{ title: '开源项目',
+[{ title: 'jmgraph',
     modal: false,   
     position: 'center',   //显示位置,top=顶部,left =左边,center居中 
-    url: "http://www.jm47.com/",
+    url: "https://jiamao.github.io/jmgraph/example/index.html",
     ico: "~/app/jm/project.png",
     width: 600,
     height:400,
@@ -15,12 +15,12 @@ des:true,
     state:$jm.winState.max,
     bgMenu: true//加到桌面右健菜单中
 },
- {title: '技术文档',
+ {title: 'jmchart',
     modal: false,   
     position: 'center',   //显示位置,top=顶部,left =左边,center居中        
     width: 600,
     height: 480,
-    url: "http://www.jm47.com/",
+    url: "https://jiamao.github.io/jmchart/example/index.html",
     ico: "~/app/jm/jswd.png",
     resizeable: true,
     iframe:true,
